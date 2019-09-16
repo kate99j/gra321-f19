@@ -1,20 +1,30 @@
 /* Styles for Project 5 */
 
 body{
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     line-height: 1.5;
-    font-family: bc-alphapipe, sans-serif;
+    font-family: collier, sans-serif;
     font-weight: 200;
     font-style: normal;
+    font-size: 18px;
 }
 
 h1{
-    Color: burntorange;
-    font-weight: 500;
+    color: darkblue;
+    font-weight: 1000;
+    font-size: 48px;
 }
 
 h2{
+    color: cornflowerblue;
     font-weight: 500;
+    font-size: 40px;
+}
+
+h3{
+    color: darkslateblue;
+    font-weight:500;
+    font-size: 24px;
 }
 
 img{
