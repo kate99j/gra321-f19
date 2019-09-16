@@ -1,1 +1,26 @@
 /* Styles for Project 5 */
+
+body{
+    letter-spacing: 5px;
+    line-height: 1.5;
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1{
+    Color: burntorange;
+    font-weight: 500;
+}
+
+h2{
+    font-weight: 500;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    margin-bottom: 2rem;
+}
