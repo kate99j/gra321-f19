@@ -1,0 +1,10 @@
+/* Project 6 Styles */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
