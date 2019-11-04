@@ -26,14 +26,18 @@ body{
     font-weight: bold;
 }
 h1 {
+    font-weight: 1000;
     color: #0B0B0B;
 }
 h2{
+    font-weight: 500;
     color:#151010;
 }
 h3{
+    font-weight: 300;
     color:#000000;
 }
 h4{
+    font-weight: 200;
     color: #1E1C1C;
 }
