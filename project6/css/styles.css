@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Project 6 Styles */
 
 *, *:before, *:after {
@@ -144,4 +145,151 @@ a:hover {
       /* Setup the space between columns here */
       grid-gap: 3rem;
     }
+=======
+/* Project 6 Styles */
+
+*, *:before, *:after {
+    box-sizing: border-box;
 }
+
+li {
+    float: left;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    text-decoration-color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    color: #2b2d2f;
+    background-image:url("../img/sensory-art-house-tYDjgdmjcz8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-y;
+    font-family: 'rig-solid-bold-reverse', sans-serif;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    background-color: black;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+      color: white;
+      font-family: filicudi-solid, sans-serif;
+      font-weight: 100;
+      font-size: 72px;
+      font-style: normal;
+      margin: 0rem, 0rem, 0rem, 0rem;
+    padding: 5%;
+  }
+
+h2{
+    background-color: black;
+    color:white;
+    font-family: quicksand, sans-serif;
+    font-weight: 3000;
+    font-size:48px;
+    font-style: normal; 
+    padding: 0.5%;
+}
+
+h3{
+    color:black;
+    font-family: quicksand, sans-serif;
+    font-weight: 1000;
+    font-size: 32px;
+    font-style: normal; 
+}
+
+h4{
+    color: black;
+    font-family: quicksand, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal; 
+}
+
+h5{
+    color: black;
+    font-family: quicksand, sans-serif;
+    font-weight: 750;
+    font-size: 24px;
+    font-style: normal; 
+}
+
+h6{
+    color: black;
+    font-family: quicksand, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal; 
+    margin: 0px;
+}
+
+p{
+    color: black;
+    font-family: quicksand, sans-serif;
+    font-weight: 375;
+    font-size: 16px;
+    font-style: normal; 
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+body{ 
+    padding: 0rem; 
+}
+
+a {
+  border: 3px solid #333;
+  color: #333;
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  transition: all .25s ease;
+  box-shadow: 2px 2px 3px rgba(0,0,.5,.5);
+}
+a:hover {
+  box-shadow: 2px 2px 3px rgba(0,0,0,0);
+   padding: .99rem 1.99rem;
+}
+/* Regular Mobile Styles */
+.container {
+    padding: 1rem;
+  }
+
+  p {
+    letter-spacing: 1px;
+    line-height: 1.65;
+  }
+  
+  /* Media Query for Desktop 
+  **************************
+  This applies only for devices _larger_ than 768px. You can change the width to anything that makes sense for your design.
+  **************************/
+  @media only screen and (min-width: 768px) {
+    .container {
+      /* Make the .container display as a grid */
+      display: grid;
+      /* Setup your column grid here */
+      grid-template-columns: 1fr 1fr;
+      /* Setup the space between columns here */
+      grid-gap: 3rem;
+    }
+>>>>>>> d1dd1e877b8526a69d82d5bd03d4873ec82d9baa
+  }
