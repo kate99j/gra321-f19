@@ -5,7 +5,7 @@
 }
 li {
     float: left;
-    padding: 10px;
+    padding: 20px;
     color: black;
     text-align: center;
     text-decoration-color: black;
@@ -34,11 +34,11 @@ h1{
     background-size: cover;
       color: white;
       font-family: filicudi-solid, sans-serif;
-      font-weight: 400;
-      font-size: 64px;
+      font-weight: 500;
+      font-size: 72px;
       font-style: normal;
       margin: 0rem, 0rem, 0rem, 0rem;
-    padding: 1rem;
+    padding: 5%;
   }
 
 h2{
@@ -48,6 +48,7 @@ h2{
     font-weight: 3000;
     font-size:48px;
     font-style: normal; 
+    padding: 0.5%;
 }
 h3{
     color:black;
@@ -100,7 +101,7 @@ ul{
 }
 
 body{ 
-    padding: 5rem; 
+    padding: 0rem; 
 }
 
 a {
