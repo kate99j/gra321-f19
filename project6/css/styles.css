@@ -3,51 +3,109 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
+li {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    text-decoration-color: black;
+}
 
 img{
     max-width: 100%;
 }
 
 p{
-font-family: 'Futura', sans-serif;
+font-family: 'quicksand', sans-serif;
 color: black;
 }
 
 body{
     color: #2b2d2f;
-    background-image:url("../img/coffee365.jpg") ;
+    background-image:url("../img/coffee365.jpg");
     background-position: center;
     background-repeat:repeat-y;
-    font-family: 'Futura', sans-serif;
+    font-family: 'rig-solid-bold-reverse', sans-serif;
     height: 100%;
     width: 100%;
     background-size: cover;
     text-align: center;
     font-weight: bold;
 }
-h1 {
-    color: black;
-}
+h1{
+    background-color: black;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+      color: #fff;
+      font-family: filicudi-solid, sans-serif;
+      font-weight: 400;
+      font-size: 64px;
+      font-style: normal;
+      margin: 0rem, 0rem, 0rem, 0rem;
+    padding: 1rem;
+  }
+
 h2{
-    color:rgb(48, 48, 48);
+    color:black;
+    font-family: quicksand, sans-serif;
+    font-weight: 3000;
+    font-size:48px;
+    font-style: normal; 
 }
 h3{
     color:black;
+    font-family: quicksand, sans-serif;
+    font-weight: 1000;
+    font-size: 32px;
+    font-style: normal; 
 }
 h4{
-    color:rgb(48, 48, 48);
+    color: black;
+    font-family: quicksand, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal; 
 }
+
+h5{
+    color: black;
+    font-family: quicksand, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    font-style: normal; 
+}
+
+p{
+    color: black;
+    font-family: quicksand, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal; 
+}
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     text-align: center;
-
 }
-li {
-    float: left;
-    padding: 16px;
-    text-align: center;
-    text-decoration:  none;
+
+body{ 
+    padding: 5rem; 
+}
+
+a {
+  border: 3px solid #333;
+  color: #333;
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  transition: all .25s ease;
+  box-shadow: 2px 2px 3px rgba(0,0,.5,.5);
+}
+a:hover {
+  box-shadow: 2px 2px 3px rgba(0,0,0,0);
+   padding: .99rem 1.99rem;
 }
