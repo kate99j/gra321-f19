@@ -5,7 +5,7 @@
 }
 li {
     float: left;
-    padding: 12px;
+    padding: 10px;
     color: black;
     text-align: center;
     text-decoration-color: black;
@@ -22,13 +22,13 @@ color: black;
 
 body{
     color: #2b2d2f;
-    background-image:url("../img/coffee365.jpg");
+    background-image:url("../img/sensory-art-house-tYDjgdmjcz8-unsplash.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat:repeat-y;
     font-family: 'rig-solid-bold-reverse', sans-serif;
     height: 100%;
     width: 100%;
-    background-size: cover;
     text-align: center;
     font-weight: bold;
 }
