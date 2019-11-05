@@ -6,9 +6,8 @@
 
 li {
     float: left;
-    padding: 10px;
+    padding: 12px;
     font-size: 20px;
-    column-span: all;
     color: black;
     text-align: center;
     text-decoration-color: black;
