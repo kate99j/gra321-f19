@@ -34,7 +34,7 @@ h1{
     background-size: cover;
       color: white;
       font-family: filicudi-solid, sans-serif;
-      font-weight: 500;
+      font-weight: 100;
       font-size: 72px;
       font-style: normal;
       margin: 0rem, 0rem, 0rem, 0rem;
@@ -117,3 +117,26 @@ a:hover {
   box-shadow: 2px 2px 3px rgba(0,0,0,0);
    padding: .99rem 1.99rem;
 }
+/* Regular Mobile Styles */
+.container {
+    padding: 1rem;
+  }
+  p {
+    letter-spacing: 1px;
+    line-height: 1.65;
+  }
+  
+  /* Media Query for Desktop 
+  **************************
+  This applies only for devices _larger_ than 768px. You can change the width to anything that makes sense for your design.
+  **************************/
+  @media only screen and (min-width: 768px) {
+    .container {
+      /* Make the .container display as a grid */
+      display: grid;
+      /* Setup your column grid here */
+      grid-template-columns: 1fr 1fr;
+      /* Setup the space between columns here */
+      grid-gap: 3rem;
+    }
+  }
